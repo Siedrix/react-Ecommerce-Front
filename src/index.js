@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { render } from 'react-dom'
-import Products from './Components/Products'
+import App from './Components/App'
 
-render(<Products />, document.getElementById('root'))
+render(<App />, document.getElementById('root'))

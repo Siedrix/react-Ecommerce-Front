@@ -4,13 +4,17 @@ import Cart from '../Cart'
 import Orders from '../Orders'
 import Products from '../Products'
 
+import './app.css'
+
 class App extends Component {
     render() {
         return(
-            <div>
-                <Cart />
-                <Orders />
-                <Products />
+            <div className="container">
+                <div className="container__body">
+                    <Products />
+                    <Cart />
+                    <Orders />
+                </div>
             </div>
         )
     }

@@ -1,10 +1,11 @@
 .containerProducts {
 
     width: 995px;
-    height: 360px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    border-bottom: 1px solid #ABB4BD;
 
 }
 
@@ -33,7 +34,19 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
+
+.containerProducts__catalog--general {
+
+    width: 200px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+
 
 .containerProducts__catalog--box {
 
@@ -44,6 +57,7 @@
     justify-content: center;
     flex-direction: column;
     transition: all .4s ease-in-out;
+    align-items: center;
 
 }
 
@@ -56,6 +70,7 @@
 .box__img {
 
     width: 174px;
+
 }
 
 
@@ -71,6 +86,87 @@
 .box__p {
 
     font-weight: 400;
+    font-size: 12px;
+
+}
+
+.containerProducts__buttons {
+
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.containerProducts__buttons--add {
+
+    border: none;
+    width: 80px;
+    height: 35px;
+    border-radius: 0;
+    color: white;
+    background-color: #3E3F43;
+    outline: none;
+    font-weight: 600;
     font-size: 10px;
+    transition: all .4s ease-in-out;
+
+}
+
+.containerProducts__buttons--add:hover {
+    background-color: black;
+}
+
+.containerProducts__buttons--add:active{
+    background-color:white;
+}
+
+.containerProducts__buttons--p {
+
+    border: none;
+    border-radius: 0;
+    outline: none;
+    background-color: #f2f3f6;
+    transition: all .4s ease-in-out;
+
+}
+
+.containerProducts__buttons--s {
+
+    border: none;
+    border-radius: 0;
+    outline: none;
+    background-color: #f2f3f6;
+    transition: all .4s ease-in-out;
+
+}
+
+.containerProducts__buttons--p:hover {
+    color: black;
+}
+
+.containerProducts__buttons--p:active{
+    color:white;
+}
+
+.containerProducts__buttons--s:hover {
+    color: black;
+}
+
+.containerProducts__buttons--s:active{
+    color:white;
+}
+
+.containerProducts__buttons--group {
+
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 23px;
+    margin-top: 5px;
 
 }

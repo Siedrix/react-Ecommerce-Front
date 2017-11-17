@@ -5,7 +5,14 @@ import './orders.css'
 class Orders extends Component {
     render() {
         return(
-            <p></p>
+            <div className="containerOrders">
+                <div>
+                    <h2 className="containerOrders__body--h2">Orders</h2>
+                </div>
+                <div>
+
+                </div>
+            </div>
         )
     }
 }

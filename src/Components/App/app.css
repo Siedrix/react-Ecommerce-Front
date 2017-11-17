@@ -14,3 +14,11 @@
   height: 1200px;
   /* border: 1px solid blue; */
 }
+
+.containerDouble {
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}

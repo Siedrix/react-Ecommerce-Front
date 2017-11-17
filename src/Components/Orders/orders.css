@@ -1,0 +1,18 @@
+.containerOrders {
+
+    width: 498px;
+    height: 400px;
+    /* border: 1px solid olive; */
+
+}
+
+.containerOrders__body--h2 {
+
+    font-size: 24px;
+    font-weight: 600;
+    width: 160px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #404040;
+    color: #404040;
+
+}

@@ -12,8 +12,10 @@ class App extends Component {
             <div className="container">
                 <div className="container__body">
                     <Products />
-                    <Cart />
-                    <Orders />
+                    <div className="containerDouble">
+                        <Cart />
+                        <Orders />
+                    </div>
                 </div>
             </div>
         )

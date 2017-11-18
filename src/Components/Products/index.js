@@ -44,6 +44,8 @@ class Products extends Component {
                             </div>
                         </div>
 
+                        
+
                         <div className="containerProducts__catalog--general">
                             <div className="containerProducts__catalog--box">
                                 <center><img className="box__img" src={require('../../images/img3.png')} alt="Designer-Chair" /></center>

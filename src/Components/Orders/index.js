@@ -4,6 +4,10 @@ import './orders.css'
 
 class Orders extends Component {
     render() {
+
+        let hola = 'Hola mundo';
+        console.log(hola);
+
         return(
             <div className="containerOrders">
                 <div className="containerOrders__body">
@@ -15,7 +19,7 @@ class Orders extends Component {
 
 
 
-                
+
                     <div className="containerOrders__body--order">
                         <div className="containerOrders__orderNumber">
                             <p className="containerOrders__nOrder">Order 001</p>

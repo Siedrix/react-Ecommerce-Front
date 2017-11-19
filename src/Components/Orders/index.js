@@ -12,6 +12,10 @@ class Orders extends Component {
 
 
                 <div className="containerOrders__box">
+
+
+
+                
                     <div className="containerOrders__body--order">
                         <div className="containerOrders__orderNumber">
                             <p className="containerOrders__nOrder">Order 001</p>
@@ -22,6 +26,10 @@ class Orders extends Component {
                             <p className="containerOrders__total">Total</p>
                         </div>
                     </div>
+
+    
+
+                    
 
                 </div>
 

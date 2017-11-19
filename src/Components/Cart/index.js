@@ -11,9 +11,11 @@ class Cart extends Component {
                 </div>
                 <div className="containerCart__box">
 
+
+
                     <div className="containerCart__box--product">
                         <div className="containerCart__box--img">
-                            <img className="containerCart__img" src={require('../../images/img1.png')} alt="product"/>
+                            <img className="containerCart__img" src={require('../../images/img1.png')} alt="product" />
                             <div className="containerCart__box--text">
                                 <h2 className="containerCart__box--h2">Designer Chair</h2>
                                 <p className="containerCart__box--p">Quantity: 1</p>
@@ -38,6 +40,12 @@ class Cart extends Component {
                             <p className="containerCart__box--number">$ 1399</p>
                         </div>
                     </div>
+
+                    
+
+
+
+
 
                     <div className="containerCart__checkbox">
                         <div className="containerCart__button">

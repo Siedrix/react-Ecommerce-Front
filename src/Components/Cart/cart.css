@@ -92,18 +92,15 @@
     border-radius: 0;
     outline: none;
     font-size: 9px;
-    transition: all .4s ease-in-out;
     background: none;
     font-style: italic;
     color: #FF3B30;
     margin-left: 9px !important;
     margin-top: -2px;
+    cursor: pointer;
 
 }
 
-.containerCart__box--buttom:hover {
-    color: #4E0400;
-}
 
 .containerCart__box--number {
 
@@ -156,7 +153,6 @@
     font-size: 14px;
     color: #404040;
     cursor: pointer;
-
 }
 
 .containerCart__button--click:hover {
@@ -192,5 +188,85 @@
 .containerCart__results--free {
 
     color: #39CA74;
+
+}
+
+@media screen and (max-width: 995px) {
+
+    .containerCart {
+
+        height: 500px;
+
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+
+    .containerCart {
+
+        height: 600px;
+        width: 400px;
+
+    }
+
+    .containerCart__box--product {
+
+        width: 400px;
+
+    }
+
+    .containerCart__checkbox {
+
+        height: 240px;
+        flex-direction: column;
+        
+    }
+
+    .containerCart__button {
+        order: 2;
+        margin-right: -120px;
+       
+    }
+
+    .containerCart__results {
+        order: 1;
+        margin-right: -40px;
+    }
+
+}
+
+@media screen and (max-width: 439px) {
+
+
+   .containerCart {
+
+        width: 350px;
+
+    }
+
+    .containerCart__box--product {
+
+        width: 350px;
+
+    }
+
+    .containerCart__box--number {
+
+        font-size: 14px;
+
+    }
+
+    .containerCart__results {
+
+        margin-right: 50px;
+
+    }
+
+    .containerCart__button {
+
+        margin-right: -20px;
+       
+    }
 
 }

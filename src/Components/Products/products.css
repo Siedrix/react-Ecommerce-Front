@@ -1,11 +1,10 @@
 .containerProducts {
 
     width: 995px;
-    height: 500px;
+    height: 450px;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    border-bottom: 1px solid #ABB4BD;
+    /* justify-content: center; */
+    /* align-items: flex-start; */
 
 }
 
@@ -13,31 +12,36 @@
 
     width: 995px;
     height: 360px;
+    display: flex;
+    margin-left: 0px;
+    margin-top: 20px;
     
 }
 
-.containerProducts__body--h2 {
+
+.containerProducts__title {
 
     font-size: 24px;
     font-weight: 600;
-    width: 160px;
-    padding-bottom: 5px;
     border-bottom: 1px solid #404040;
+    margin-bottom: 415px;
     color: #404040;
-
+    
 }
+
 
 .containerProducts__catalog {
 
-    width: 995px;
+    max-width: 995px;
     height: 360px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+
 }
 
-.containerProducts__catalog--general {
+/* .containerProducts__catalog--general {
 
     width: 200px;
     height: 350px;
@@ -45,7 +49,7 @@
     flex-direction: column;
     margin-top: 50px;
 
-}
+} */
 
 
 .containerProducts__catalog--box {
@@ -110,6 +114,7 @@
     font-weight: 600;
     font-size: 10px;
     transition: all .4s ease-in-out;
+    cursor: pointer;
 
 }
 
@@ -170,3 +175,61 @@
     margin-top: 5px;
 
 }
+
+/*  responsive  */
+
+@media screen and (max-width: 995px) {
+
+   .containerProducts {
+
+        width: 500px;
+        height: 800px;
+        margin-left: 240px;
+        margin-right: 200px;
+        
+   }
+
+      .containerProducts__title {
+
+        margin-bottom: 766px;
+        margin-right: -105px;
+        z-index: 1;
+
+    }
+
+    .containerProducts__catalog {
+
+        margin-top: 50px;
+
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+
+     .containerProducts {
+
+        width: 350px;
+        height: 1600px;
+        margin-left: 190px;
+        margin-right: 200px;
+        
+   }  
+
+     .containerProducts__catalog--box {
+
+        margin-top: 20px;
+
+   }
+
+    .containerProducts__title {
+
+        margin-bottom: 1565px;
+        margin-left: -100;
+
+    }
+
+
+}
+
+/* <h2 className="containerProducts__body--h2">Products</h2>  */

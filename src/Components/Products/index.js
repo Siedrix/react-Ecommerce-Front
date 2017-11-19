@@ -5,13 +5,13 @@ import './products.css'
 class Products extends Component {
     render() {
         return(
+           
             <div className="containerProducts">
-                <div className="containerProducts__body">
-                    <div>
-                        <h2 className="containerProducts__body--h2">Products</h2>
-                    </div>
-                    <div className="containerProducts__catalog">
 
+                <span className="containerProducts__title">Products</span>
+                <br/>
+                
+                    <div className="containerProducts__catalog">
                         <div className="containerProducts__catalog--general">
                             <div className="containerProducts__catalog--box">
                                 <center><img className="box__img" src={require('../../images/img1.png')} alt="Designer-Chair" /></center>
@@ -79,7 +79,7 @@ class Products extends Component {
                         </div>
 
                     </div>
-                </div>
+                
             </div>
         )
     }

@@ -22,7 +22,10 @@ class Orders extends Component {
                             <p className="containerOrders__total">Total</p>
                         </div>
                     </div>
+
                 </div>
+
+                
 
                 
 

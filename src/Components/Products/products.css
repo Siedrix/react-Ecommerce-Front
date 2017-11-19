@@ -38,6 +38,7 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 50px;
 
 }
 
@@ -62,6 +63,7 @@
     flex-direction: column;
     transition: all .4s ease-in-out;
     align-items: center;
+    margin-right: 10px;
 
 }
 
@@ -218,7 +220,7 @@
 
      .containerProducts__catalog--box {
 
-        margin-top: 20px;
+        margin-top: 30px;
 
    }
 

@@ -5,8 +5,7 @@ import './orders.css'
 class Orders extends Component {
     render() {
 
-        let hola = 'Hola mundo';
-        console.log(hola);
+
 
         return(
             <div className="containerOrders">

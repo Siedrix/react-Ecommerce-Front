@@ -3,6 +3,11 @@ import React, { Component } from 'react'
 import './cart.css'
 
 class Cart extends Component {
+
+    constructor(props) {
+        super(props)
+    }
+
     render() {
         return(
             <div className="containerCart">
@@ -10,8 +15,6 @@ class Cart extends Component {
                     <h2 className="containerCart__h2">Shopping Cart</h2>
                 </div>
                 <div className="containerCart__box">
-
-
 
                     <div className="containerCart__box--product">
                         <div className="containerCart__box--img">
@@ -29,7 +32,7 @@ class Cart extends Component {
 
                     <div className="containerCart__box--product">
                         <div className="containerCart__box--img">
-                            <img className="containerCart__img" src={require('../../images/img2.png')} alt="product" />
+                            <img className="containerCart__img" src={require('../../images/img3.png')} alt="product" />
                             <div className="containerCart__box--text">
                                 <h2 className="containerCart__box--h2">Chic Chair</h2>
                                 <p className="containerCart__box--p">Quantity: 2</p>
@@ -37,14 +40,9 @@ class Cart extends Component {
                             </div>
                         </div>
                         <div className="containerCart__box--price">
-                            <p className="containerCart__box--number">$ 1399</p>
+                            <p className="containerCart__box--number">$ 1398</p>
                         </div>
                     </div>
-
-                    
-
-
-
 
 
                     <div className="containerCart__checkbox">
